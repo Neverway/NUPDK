@@ -1,0 +1,68 @@
+```             :zRDz:             
+         ~iO@@Qa6Q@@pi~         
+     ,ip@@Qo+`  . '/6Q@@9i,     
+  ?EQ@Qe*.      @Qe*. ,i9Q@Qw;  
+  @@o-          ,/6Q@Qw?' ,Q@e  
+  @@\ ~a;    '    '`,/6y:  W@e  
+  @@\ ;@@'  ;@p`  Q^       W@e  
+  @@\ ;@@'  ;@?N' Q^       W@e  
+  @@\ ;@@'  ;@ ,#*Q^       W@e  
+  @@\ ;@@'  ;@  `p@^       W@e  
+  @@\ :Er   `:    ~`~i9y;  W@e  
+  @@j`          ,/6Q@Qe*. .Q@e  
+  tW@@NF;`      @Qar. .*eQ@Qw;  
+    `^yB@@R};`  - -*eQ@@9i,     
+        `^oQ@@NjeQ@@p7~         
+            .*eQDz:             
+
+Neverway Unity Project Development Kit Template
+===============================================
+Written by Arthur W. Sheldon aka Liz Miyuna 2022
+
+
+Includes following packages
+-----------------------------
+ProBuilder
+Navmesh
+SimpleLightProbePlacer
+Cinemachine
+2DSprite
+ShaderGraph
+TextmeshPro
+DynamicBones
+
+NUPInputSystem - A package for setting input methods and their default bindings, (currently only keyboard support,) as well as functions for rebinding those keys in a menu
+NUPAudioSystem - A package for allowing sound effects and music to played, as well as transition triggers to change music in 3D and 2D projects
+NUPGameSettingsSystem - A package for modifing the games sound, resolution, V-Sync, & quality
+NUPTitle Scene - A button that will take you to the NUPEmptyTemplate scene, & a button that will let you configure the game settings (that requires NUPInputSystem)
+NUPEmptyTemplate Scene - A scene with proper empty game objects for organizing game assets
+
+
+Importable packages
+---------------------
+NUPTopdownMovment
+NUPPlatformMovement
+NUPFirstPersonMovement
+NUPThirdPersonMovement
+NUPNetworking
+
+
+How to use
+-----------
+1.) Copy the Unity project folder to your Neverway Project folder (A folder with the ID and name of the project, a git repo established inside of it, and a sub-folder for development assets named "Project         files")
+    (Example:
+        /ID-002 DA
+         |> /NUPDKTemplate
+            |  /.gitignore
+    )
+
+2.) Import the packages for the type of game you are building
+
+3.) Rename the project with the proper format, "ProjectType-InternalProjectName" 
+    (Example:
+        /ID-002 DA
+         |> /U2D-DivineAnnihilation
+             |  /.gitignore
+    )
+
+4.) Now you're ready to rock n' roll! Remember to check the documentation if you need any help! (https://neverway.github.io/software/NUPDK/docs.html)```
